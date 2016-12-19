@@ -11,7 +11,7 @@ class Stack
 private:
     vector<T> data;
 public:
-    bool empty();
+	int x=0;
     void push(const T& item)
     {
         data.push_back(item);
